@@ -1,0 +1,26 @@
+# secrets
+.env
+config/.env
+config/settings.py
+client_secret*.json
+token*.json
+notion_backup_*.txt
+*.pem
+*.key
+
+# outputs / media
+assets/
+logs/
+history.json
+diagnostics/
+*.mp4
+*.mp3
+*.wav
+*.mov
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.bak*
